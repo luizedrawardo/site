@@ -66,6 +66,9 @@ img{
     width:-webkit-fill-available;
     margin: 20px 20px 0px 20px
 }*/
+img#bugdroid{
+    width: 90%;
+}
 img#android{
     width: 50%;
     
