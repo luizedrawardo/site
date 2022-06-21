@@ -1,0 +1,119 @@
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding:5px ;
+    padding-bottom: 0px;
+    max-width: 1500px;
+    min-width: 300px;
+    margin: auto;
+    /*
+    consegui arrumar, era o video, a imagem do android muito grande, e a div#extra que tava dando a rolagem lateral,
+    só ainda nao consegui colocar uma margim fixa tipo 30px mesmo na tela pequena*/
+    /*
+    max-width:1000px ;
+    min-height:320px ;
+    margin: auto;
+    esse jeito é bom porem em tela pequena minha margin nao tem como mudar, fica quase 0 , tudo errado, ver video que eu mesmo gravei falando
+    */
+    /*
+    acho que entendi tem algum objeto que ta com margem grande fazendo o a barra de rolagem lateral, pra da certo a margin minima lateral tem que ta em 80px*/
+    
+}
+article>h1{
+    text-indent: 20px;
+    /*color: rgb(100, 28, 28); cor que tava antes de eu fazer o fundo degrade*/
+    color: rgb(255, 255, 255);
+    margin:50px 30px 15px 30px;
+    background-image: linear-gradient(to right, #6c3f8cb0,rgba(169, 111, 18, 0.134));
+    border-radius:10px 0px 0px 10px ;
+    font-size: 20pt;
+    padding: 2px;
+}
+article>h2{
+    text-indent: 20px;
+    color: rgb(255, 255, 255);
+    /*color: rgb(100, 28, 28); cor que tava antes de eu fazer o fundo degrade*/
+    margin:205px 30px 15px 30px;
+    background-image: linear-gradient(to right, #6c3f8cb0,rgba(169, 111, 18, 0.134));
+    border-radius:10px 0px 0px 10px ;
+    padding: 2px;
+    
+}
+
+article>p{
+    text-indent: 20px;
+    font-size: 14px;
+    margin: 20px 20px 10px 20px;
+    text-align: justify ;
+}
+footer{
+    background-image: linear-gradient(180deg, rgb(164, 128, 30), rgb(193, 88, 179));
+    display: block;
+}
+p#rodape{
+    background-image:linear-gradient(45deg, rgb(193, 91, 54), rgb(62, 245, 255)); ;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+    box-shadow:inset -5px 6px 20px 1px rgb(0 239 255 / 37%)
+}
+
+div{
+    background-image: linear-gradient( rgb(124, 201, 213),rgb(100, 155, 187)); 
+    
+}
+
+div.video{
+    margin:0px -5px 0px -5px;
+    padding: 20px;
+    position: relative;
+    padding-bottom: 90%;
+    top: 10%;
+    
+}
+iframe{
+    position: absolute;
+   top:5%;
+   left: 5%;
+    width: 90%;
+    height: 90%;
+}
+/*
+div.video {
+    background-image: linear-gradient( rgb(124, 201, 213),rgb(100, 155, 187)); 
+}
+iframe{
+    width:-webkit-fill-available;/* -webkit-fill-available descubri isso testando no dev tools, foi a unica solução que encontrei ai depois e só ajustar a margin*/
+    /*https://www.youtube.com/watch?v=6Pem4FcvL2A*/
+    /*ver esse video depois*/
+    /*margin: 20px 50px 20px 50px;
+    tava assim antes de ajustar igual o gustavo guanabara fez
+}**/
+div#extra{
+    
+    border-radius: 10px;
+    padding-bottom: 10px;
+    margin: 0px;
+    box-shadow:-5px 100px 200px 50px rgb(227, 129, 18)
+}
+div#extra>h2{
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+    color: aliceblue;
+}
+div#extra>p{
+    text-indent: 20px;
+    padding: 0px 30px 0px 30px;
+}
+aside{
+    background-color: rgb(0, 0, 0);
+    margin: -5px;
+    margin-top: 0px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+ul{
+    margin-left: 30px;
+}
+
